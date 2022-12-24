@@ -1,0 +1,9 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 810px) {
+    h1{
+        font-size: 1.5rem;
+    }
+}
