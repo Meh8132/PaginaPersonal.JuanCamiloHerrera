@@ -1,15 +1,33 @@
+/* Texto */
+
 * {
     font-family: 'Poppins', sans-serif;
 }
 
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+
 @media (max-width: 810px) {
     h1{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1rem;
     }
 }
 
+/* Elementos */
+
 .foto-perfil{
-    margin-top: 2%;
+    margin-top: 5%;
     width: 200px;
     border-radius: 50%;
     border: 6px solid #bdbcbc;
@@ -20,5 +38,26 @@
     .foto-perfil{
         width:30%;
         border-width: 4px;
+        margin-top:  10%;
     }
 }
+.iconos-redes h1 a{
+    color: azure;
+}
+
+/* Diseño */
+
+footer{
+    background-color: #1b1b1b;
+    color: azure;
+}
+@media (min-width:811px) {
+    footer{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #redes{
+        text-align: right;
+    }
+}
+
