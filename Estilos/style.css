@@ -9,8 +9,11 @@ h1{
 }
 h2{
     font-size: 1.5rem;
+    font-weight: 400;
 }
-
+h3{
+    font-weight: 300;
+}
 
 @media (max-width: 810px) {
     h1{
@@ -27,18 +30,22 @@ h2{
 /* Elementos */
 
 .foto-perfil{
-    margin-top: 5%;
     width: 200px;
     border-radius: 50%;
     border: 6px solid #bdbcbc;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -10%;
 }
+#foto-ud{
+    width: 100%;
+}
+
 
 @media (max-width: 810px) {
     .foto-perfil{
         width:30%;
         border-width: 4px;
-        margin-top:  10%;
+        margin-top: -15%;
     }
 }
 .iconos-redes h1 a{
@@ -58,6 +65,10 @@ footer{
     }
     #redes{
         text-align: right;
+    }
+    #foto-ud{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }
 
