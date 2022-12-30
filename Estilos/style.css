@@ -59,11 +59,11 @@ h3{
 .habilidades p{
     text-align: center;
 }
-.habilidades i{
+.habilidades p i{
     color: #050b2c;
     transition: 0.3s;
 }
-.habilidades i:hover{
+.habilidades p i:hover{
     color: rgb(15, 89, 226);
 }
 .habilidades{
@@ -75,7 +75,7 @@ h3{
         font-size: 1.8rem;
     }
     .habilidades p{
-        margin: auto 10%;
+        margin: 3% 12%;
     }
 }
 
