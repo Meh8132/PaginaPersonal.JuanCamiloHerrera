@@ -1,4 +1,5 @@
 body{
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -9,13 +10,21 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2%;
 }
 
 .informacion{
     display: grid;
     width: 80%;
 }
-
+.habilidades{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body div{
+    flex: 1;
+}
 footer{
     display: flex;
     justify-content: center;
@@ -42,25 +51,24 @@ footer{
 
 @media (min-width: 1281px){
     main {
-        width: 1024px;
+        width: 1280px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     footer{
-        width: 1024px;
+        width: 1280px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 @media (min-width: 811px) and (max-width: 1280px){
-    main {
+    /* main {
         width: 80%;
-    }
+    } */
     footer{
-        width: 80%;
+        width: 100%;
     }
 }
 @media (min-width: 811px){
     main {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
         justify-content: space-around;
     }
     .informacion{    
@@ -78,7 +86,7 @@ footer{
 
 @media (min-width:700px) {
     .contenido-footer{    
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 3fr 4fr;
         column-gap: 10%;
     }
 }

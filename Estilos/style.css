@@ -13,7 +13,9 @@ h2{
 }
 h3{
     font-weight: 300;
+    font-size: 1.15rem;
 }
+
 
 @media (max-width: 810px) {
     h1{
@@ -39,7 +41,10 @@ h3{
 #foto-ud{
     width: 100%;
 }
-
+#hr-1{
+    width: 80%;
+    color: #050b2c;
+}
 
 @media (max-width: 810px) {
     .foto-perfil{
@@ -47,28 +52,63 @@ h3{
         border-width: 4px;
         margin-top: -15%;
     }
+    #hr-1{
+        display: none;
+    }
 }
+.habilidades p{
+    text-align: center;
+}
+.habilidades i{
+    color: #050b2c;
+    transition: 0.3s;
+}
+.habilidades i:hover{
+    color: rgb(15, 89, 226);
+}
+.habilidades{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+@media (max-width: 810px) {
+    .habilidades{
+        font-size: 1.8rem;
+    }
+    .habilidades p{
+        margin: auto 10%;
+    }
+}
+
 .iconos-redes h1 a{
     color: azure;
+    transition: 0.3s;
+}
+.iconos-redes h1 a:hover{
+    color: rgb(15, 89, 226);
 }
 
 /* Diseño */
 
+.habilidades{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
 footer{
-    background-color: #1b1b1b;
+    background-color: #050b2c;
     color: azure;
 }
 @media (min-width:811px) {
-    footer{
+    /* footer{
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-    }
+    } */
     #redes{
         text-align: right;
     }
-    #foto-ud{
+    /* #foto-ud{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-    }
+    } */
 }
 
